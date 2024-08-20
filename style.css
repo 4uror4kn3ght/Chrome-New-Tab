@@ -1,0 +1,33 @@
+/* Importing font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+#box {
+  position: relative;
+  margin-inline: 20%;
+  top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 40vh;
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  font-weight: 700;
+  font-size: 4.5vw;
+  text-align: center;
+  background-color: rgb(255 255 255 / 20%);
+  border-radius: 35px;
+  border: 0;
+  backdrop-filter: blur(35px);
+}
